@@ -127,13 +127,13 @@
         showStatus(
           status,
           "info",
-          "Your enquiry details look good. Email delivery is not connected yet — please email info@cleanvo.in or call +91 91296 69512, and add EmailJS keys in assets/js/emailjs.config.js."
+          "Your enquiry details look good. Email delivery is not connected yet — please email cleanvosupport@gmail.com or call +91 91296 69512, and add EmailJS keys in assets/js/emailjs.config.js."
         );
         return;
       }
 
       if (!window.emailjs || typeof window.emailjs.send !== "function") {
-        showStatus(status, "error", "Email service could not load. Please email info@cleanvo.in directly.");
+        showStatus(status, "error", "Email service could not load. Please email cleanvosupport@gmail.com directly.");
         return;
       }
 
@@ -166,7 +166,7 @@
           showStatus(
             status,
             "error",
-            "Sorry — we could not send your message right now. Please try again or email info@cleanvo.in."
+            "Sorry — we could not send your message right now. Please try again or email cleanvosupport@gmail.com."
           );
         })
         .finally(function () {

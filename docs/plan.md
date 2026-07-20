@@ -18,7 +18,7 @@
 | Banner line | HOME CLEANING ESSENTIAL |
 | Motto | Clean Home. Clear Mind. Better Life. |
 | Phone | 9129669512 |
-| Email | info@cleanvo.in |
+| Email | cleanvosupport@gmail.com |
 | Website | www.cleanvo.in |
 | Address | Madra Khel Near Old Railway Line, Shahjahanpur, U.P. 242001 |
 | Launch product | Floor Cleaner (Phenyl) — Lavender Fresh, 1 L |
@@ -61,7 +61,7 @@
 
 ### Steps
 - [ ] Confirm company legal name for public copy (Care Solution vs Hygiene Products Pvt. Ltd.).
-- [ ] Confirm Contact Form recipient email (`info@cleanvo.in` or another inbox).
+- [ ] Confirm Contact Form recipient email (`cleanvosupport@gmail.com` or another inbox).
 - [ ] Create EmailJS account (needed in Contact phase; can be stubbed until then).
 - [ ] Crop/export clean logo from `logo.png` → transparent PNG (and SVG if possible).
 - [ ] Extract / note exact brand blues & greens from logo + business card for CSS variables.
@@ -435,7 +435,7 @@ Quality & Safety page complete.
 - Show real contact + map.
 
 ### Page contents
-- [ ] Contact details: phone `9129669512`, email `info@cleanvo.in`, address Shahjahanpur.
+- [ ] Contact details: phone `9129669512`, email `cleanvosupport@gmail.com`, address Shahjahanpur.
 - [ ] Business hours (confirm with founder; placeholder then lock).
 - [ ] Social links (when URLs exist).
 - [ ] Google Map embed (Shahjahanpur address).

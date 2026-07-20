@@ -66,6 +66,6 @@ High level: Foundation → Theme → Nav/Footer → Home → About → Products 
 ## Contact (brand)
 
 - Phone: 9129669512  
-- Email: info@cleanvo.in  
+- Email: cleanvosupport@gmail.com  
 - Web: www.cleanvo.in  
 - Address: Madra Khel Near Old Railway Line, Shahjahanpur, U.P. 242001

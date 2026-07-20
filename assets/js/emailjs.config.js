@@ -2,7 +2,7 @@
  * Cleanvo — EmailJS public config (safe to commit public IDs only)
  *
  * Setup:
- * 1. Create an EmailJS account → Email Services → connect inbox (e.g. info@cleanvo.in)
+ * 1. Create an EmailJS account → Email Services → connect inbox (e.g. cleanvosupport@gmail.com)
  * 2. Create a template with variables: {{name}} {{phone}} {{email}} {{city}} {{message}}
  * 3. Paste publicKey, serviceId, templateId below
  * 4. Set configured: true
