@@ -67,7 +67,8 @@
 
 - Image compression / WebP + fallbacks  
 - CSS/JS minification (manual or build script)  
-- Favicon from logo (partial assets exist in `public/` / `dist/` from Vite scaffold — production favicon still to finalize on static pages)  
+- Favicon from logo in `public/` (copied to `dist/` on Vite build); linked on all 8 HTML pages  
+- Open Graph image still pending Phase 14 
 - Google Analytics snippet (placeholder)  
 - Lighthouse / SEO hardening  
 
@@ -367,7 +368,7 @@ All scripts use **IIFE pattern** and attach APIs to `window` for `app.js` to orc
 | Brand card | `assets/images/gallery/other-info.jpeg` | Reference for colors/contact |
 | Promo video | `assets/videos/my-video.mp4` | Homepage modal |
 
-**Still to replace before v1.0 launch:** real product photography, optimized WebP, favicon on all pages, poster image for video.
+**Still to replace before v1.0 launch:** real product photography, optimized WebP, poster image for video.
 
 Empty folders ready: `hero/`, `icons/`, `backgrounds/`, `fonts/`.
 
@@ -451,7 +452,8 @@ GSAP listed in requirements for future premium motion — **not integrated yet**
 - [ ] Compress images; WebP + fallbacks  
 - [ ] Lazy-load below-fold images  
 - [ ] Minify CSS/JS for production  
-- [ ] Favicon + Open Graph image from logo  
+- [x] Favicon + Apple Touch + webmanifest (from logo; in `public/`)  
+- [ ] Open Graph image from logo  
 - [ ] Unique OG tags per page  
 - [ ] Schema.org (Organization, WebSite, Product, FAQ)  
 - [ ] Google Analytics + Search Console placeholders  

@@ -512,3 +512,31 @@ Completed
 ### Testing done (if any)
 - Verified product anchors and footer link order across pages via search
 - Manual check recommended: `products.html` sections, homepage upcoming (2 cards), footer deep links
+---
+
+## [2026-07-20] Favicon set (Vite public assets)
+
+### Functionality covered
+- Cleanvo favicon pack generated from brand logo into `public/`
+- Favicon / Apple Touch / Android Chrome icons + `site.webmanifest` linked in `<head>` on all 8 pages
+- Theme color set to brand blue `#0a5ebd`
+- Vite build copies public favicons to `dist/` root unchanged
+
+### Quick summary
+Browsers, iOS home-screen, and Android PWA icons now use the Cleanvo mark instead of the default Vite purple icon. Assets live in `public/` per Vite practice.
+
+### Files added / changed
+- `public/favicon.ico`, `favicon.svg`, `favicon-16x16.png`, `favicon-32x32.png` — added/replaced
+- `public/apple-touch-icon.png` — added
+- `public/android-chrome-192x192.png`, `android-chrome-512x512.png` — added
+- `public/site.webmanifest` — added
+- All 8 root `*.html` pages — modified (favicon head links)
+- `scripts/generate-favicons.mjs` — added (regenerate from logo)
+- `docs/project-structure.md` — modified (favicon status)
+
+### Status
+Completed
+
+### Testing done (if any)
+- `npm run build` — favicon files present in `dist/`; head links present in built HTML
+- Visual check of generated 32x32 and apple-touch icons from logo
