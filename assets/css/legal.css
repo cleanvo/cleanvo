@@ -1,0 +1,77 @@
+/**
+ * Cleanvo — Legal pages (Privacy, Terms)
+ */
+
+.main--legal {
+  padding-block: 0;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+.legal-doc {
+  padding-block: var(--space-section);
+}
+
+.legal-doc__meta {
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--space-6);
+  max-width: none;
+}
+
+.legal-doc__content {
+  max-width: 48rem;
+}
+
+.legal-doc__content h2 {
+  font-size: var(--font-size-xl);
+  margin-top: var(--space-7);
+  margin-bottom: var(--space-3);
+  overflow-wrap: anywhere;
+}
+
+.legal-doc__content h2:first-of-type {
+  margin-top: 0;
+}
+
+.legal-doc__content h3 {
+  font-size: var(--font-size-lg);
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-2);
+}
+
+.legal-doc__content p,
+.legal-doc__content li {
+  color: var(--color-muted);
+  max-width: none;
+}
+
+.legal-doc__content p {
+  margin-bottom: var(--space-4);
+}
+
+.legal-doc__content ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: var(--space-4);
+  display: grid;
+  gap: var(--space-2);
+}
+
+.legal-doc__content a {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.legal-doc__content a:hover {
+  color: var(--color-secondary);
+}
+
+.legal-doc__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--color-border);
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap (update domain when live)
+Sitemap: https://www.cleanvo.in/sitemap.xml

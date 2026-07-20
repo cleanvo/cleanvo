@@ -1,0 +1,96 @@
+/**
+ * Cleanvo — Typography
+ * Font: Manrope (loaded via style.css). Hierarchy for headings, body, UI text.
+ */
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--color-text-strong);
+}
+
+h1 {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-extrabold);
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+h6 {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+}
+
+p {
+  max-width: 65ch;
+}
+
+.text-lead {
+  font-size: var(--font-size-md);
+  color: var(--color-muted);
+  line-height: var(--line-height-snug);
+}
+
+.text-small,
+.small {
+  font-size: var(--font-size-sm);
+}
+
+.text-caption,
+.caption {
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-muted);
+}
+
+.text-muted {
+  color: var(--color-muted);
+}
+
+/* Brand wordmark: Clean (blue) + vo (green) */
+.brand-name {
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: var(--letter-spacing-tight);
+  line-height: 1;
+}
+
+.brand-name__clean {
+  color: var(--color-primary);
+}
+
+.brand-name__vo {
+  color: var(--color-secondary);
+}

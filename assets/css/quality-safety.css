@@ -1,0 +1,238 @@
+/**
+ * Cleanvo — Quality & Safety page
+ */
+
+.main--quality {
+  padding-block: 0;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+.qs-intro {
+  padding-block: var(--space-section);
+}
+
+.qs-intro__text {
+  max-width: 42rem;
+  color: var(--color-muted);
+}
+
+.qs-block {
+  padding-block: var(--space-8);
+  border-top: 1px solid var(--color-border);
+}
+
+.qs-block:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.qs-block h2 {
+  margin-bottom: var(--space-4);
+  font-size: var(--font-size-2xl);
+  overflow-wrap: anywhere;
+}
+
+.qs-block p {
+  color: var(--color-muted);
+  max-width: 42rem;
+  margin-bottom: var(--space-4);
+}
+
+.qs-block p:last-child {
+  margin-bottom: 0;
+}
+
+.qs-list {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 42rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.qs-list li {
+  position: relative;
+  padding-left: var(--space-5);
+  color: var(--color-muted);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+}
+
+.qs-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+}
+
+.qs-grid {
+  display: grid;
+  gap: var(--space-5);
+  margin-top: var(--space-5);
+}
+
+@media (min-width: 640px) {
+  .qs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.qs-card {
+  padding: var(--space-5);
+  background: var(--color-bg-soft);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.qs-card h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-2);
+}
+
+.qs-card p {
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+  max-width: none;
+  margin: 0;
+}
+
+.qs-callout {
+  margin-top: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid #c62828;
+  background: #fff5f5;
+  max-width: 42rem;
+  box-sizing: border-box;
+}
+
+.qs-callout h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-2);
+  color: #9b1c1c;
+}
+
+.qs-callout p {
+  color: #5c4040;
+  margin: 0;
+  max-width: none;
+  font-size: var(--font-size-sm);
+}
+
+.qs-promise {
+  padding-block: var(--space-section);
+  background: var(--color-bg-soft);
+}
+
+.qs-promise__panel {
+  max-width: 40rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.qs-promise__panel h2 {
+  margin-bottom: var(--space-4);
+}
+
+.qs-promise__panel p {
+  color: var(--color-muted);
+  margin-inline: auto;
+  margin-bottom: var(--space-4);
+}
+
+.qs-promise__panel p:last-child {
+  margin-bottom: 0;
+}
+
+.qs-cta {
+  padding-block: var(--space-section);
+}
+
+.qs-cta__panel {
+  border-radius: var(--radius-xl);
+  background: linear-gradient(120deg, var(--color-primary) 0%, #0d6fd0 55%, var(--color-secondary) 160%);
+  color: #fff;
+  padding: clamp(2rem, 4vw, 3.25rem);
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .qs-cta__panel {
+    grid-template-columns: 1.4fr auto;
+  }
+}
+
+.qs-cta__panel h2 {
+  color: #fff;
+  margin-bottom: var(--space-3);
+  overflow-wrap: anywhere;
+}
+
+.qs-cta__panel p {
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 40ch;
+}
+
+.qs-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.qs-cta .btn--outline {
+  border-color: #fff;
+  color: #fff;
+}
+
+.qs-cta .btn--outline:hover {
+  background: #fff;
+  color: var(--color-primary);
+}
+
+.qs-cta .btn--primary {
+  background: #fff;
+  border-color: #fff;
+  color: var(--color-primary);
+}
+
+.qs-cta .btn--primary:hover {
+  background: var(--color-accent-end);
+  border-color: var(--color-accent-end);
+  color: var(--color-secondary-dark);
+}
+
+.qs-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+}
+
+.qs-toc a {
+  display: inline-flex;
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+  transition: background-color var(--duration-fast), border-color var(--duration-fast);
+}
+
+.qs-toc a:hover {
+  background: var(--color-accent-start);
+  border-color: rgba(10, 94, 189, 0.35);
+}

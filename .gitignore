@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs & caches
+*.log
+.cache/
+dist/
+tmp/
+
+# Secrets / local env (EmailJS private keys, etc.)
+.env
+.env.*
+!.env.example
+secrets.json
+**/emailjs.private.json
+
+# Local overrides
+*.local.js
+*.local.css
+node_modules/

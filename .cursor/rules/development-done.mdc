@@ -1,0 +1,49 @@
+---
+description: After any completed work or phase, update development-done.md with a progress entry.
+alwaysApply: true
+---
+
+# Development Done Log
+
+Whenever you finish a task, feature, sprint, or **plan.md phase**, update 
+`docs/development-done.md` **before ending the turn**.
+
+Do this for partial completions too (e.g. Phase 4 hero done, carousel still pending) — note what remains.
+
+## When to update
+
+- A phase from `plan.md` is completed or partially completed
+- Meaningful files were added, removed, or changed
+- Functionality was implemented, fixed, or verified
+- Do **not** skip this update after coding work
+
+## Entry format
+
+Append a new section at the **end** of the log (oldest first, newest last), using:
+
+```markdown
+## [YYYY-MM-DD] Phase X — Short title
+
+### Functionality covered
+- Bullet list of what now works
+
+### Quick summary
+1–3 sentences: what was done and why it matters.
+
+### Files added / changed
+- `path/to/file` — brief note (added | modified | deleted)
+
+### Status
+Completed | Partial — what is left next
+
+### Testing done (if any)
+- Checks performed
+```
+
+## Rules
+
+- Be accurate — only list work actually completed in this session/step
+- Use real file paths relative to the project root
+- Keep summaries concise; prefer bullets over paragraphs
+- If `docs/development-done.md` is empty, add a short `# Cleanvo — Development Done` heading first, then the entry
+- Do not remove or reorder older entries; always append new entries at the **end**

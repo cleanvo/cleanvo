@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="360" viewBox="0 0 200 360" role="img" aria-label="Cleanvo floor cleaner bottle placeholder">
+  <defs>
+    <linearGradient id="bottleBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82d6"/>
+      <stop offset="100%" stop-color="#0a5ebd"/>
+    </linearGradient>
+    <linearGradient id="label" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6f2ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="70" y="18" width="60" height="28" rx="6" fill="#084a96"/>
+  <rect x="82" y="46" width="36" height="28" rx="4" fill="#3b82d6"/>
+  <path d="M48 86 C48 74 58 68 70 68 H130 C142 68 152 74 152 86 V300 C152 322 134 338 100 338 C66 338 48 322 48 300 Z" fill="url(#bottleBody)"/>
+  <path d="M68 100 C68 100 72 220 72 280" stroke="rgba(255,255,255,0.28)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <rect x="62" y="140" width="76" height="110" rx="10" fill="url(#label)"/>
+  <text x="100" y="175" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="800">
+    <tspan fill="#0a5ebd">Clean</tspan><tspan fill="#3d9a4a">vo</tspan>
+  </text>
+  <text x="100" y="198" text-anchor="middle" font-family="system-ui,sans-serif" font-size="8" font-weight="600" fill="#5c6b7a">FLOOR CLEANER</text>
+  <text x="100" y="218" text-anchor="middle" font-family="system-ui,sans-serif" font-size="7" fill="#3d9a4a">Lavender Fresh</text>
+  <circle cx="100" cy="240" r="8" fill="#eaf7ec" stroke="#3d9a4a" stroke-width="1.5"/>
+</svg>
