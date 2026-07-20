@@ -201,7 +201,7 @@ Completed — please re-check mobile menu before Phase 6
 
 ### Functionality covered
 - Full About page: hero, brand story & mission, founder spotlight, values, motto band, quality philosophy, CTA
-- Founder block for Jaynt Saxena with branded “JS” initials avatar placeholder
+- Founder block for Jayant Saxena with branded “JS” initials avatar placeholder
 - Human, founder-tone copy; no exaggerated claims
 - Updated SEO title/description; About nav active via existing JS
 - Mobile-safe layout (no horizontal overflow patterns)

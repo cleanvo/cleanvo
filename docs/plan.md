@@ -12,7 +12,7 @@
 |------|--------|
 | Company | Cleanvo Care Solution |
 | Brand | Cleanvo |
-| Founder & CEO | Jaynt Saxena |
+| Founder & CEO | Jayant Saxena |
 | Tagline (site) | Your Everyday Hygiene Partner |
 | Tagline (labels) | Cleaning Made Better. |
 | Banner line | HOME CLEANING ESSENTIAL |
@@ -348,7 +348,7 @@ Homepage fully interactive and motion-complete.
 ### Sections to implement
 - [ ] Page hero / intro: Cleanvo Care Solution overview.
 - [ ] Brand story & mission — human founder tone.
-- [ ] Founder spotlight: Jaynt Saxena, Founder & CEO (use approved photo when available; placeholder meanwhile).
+- [ ] Founder spotlight: Jayant Saxena, Founder & CEO (use approved photo when available; placeholder meanwhile).
 - [ ] Values: cleanliness, safety, simplicity, trust.
 - [ ] “HOME CLEANING ESSENTIAL” / motto: Clean Home. Clear Mind. Better Life.
 - [ ] Manufacturing / quality philosophy (no exaggerated claims).

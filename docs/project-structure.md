@@ -174,7 +174,7 @@ Nav links: Home · About Us · Products · Quality & Safety · Contact · FAQ ·
 |---------|---------|
 | Page hero | Company intro |
 | Brand story & mission | Founder-tone narrative |
-| Founder spotlight | Jaynt Saxena — initials avatar placeholder |
+| Founder spotlight | Jayant Saxena — initials avatar placeholder |
 | Values | Cleanliness, safety, simplicity, trust |
 | Motto band | *Clean Home. Clear Mind. Better Life.* |
 | Quality philosophy | Manufacturing / quality stance |
