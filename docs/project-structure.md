@@ -159,7 +159,7 @@ Nav links: Home · About Us · Products · Quality & Safety · Contact · FAQ ·
 | Experience Cleanvo (video) | `home.css` | `video.js` | Modal player → `assets/videos/my-video.mp4` |
 | Featured Product | `home.css` | — | Floor Cleaner Lavender Fresh 1L |
 | Product Benefits | `home.css` | — | Label-aligned benefit strip |
-| Upcoming Products | `home.css` | — | Coming Soon tiles |
+| Upcoming Products | `home.css` | — | Coming Soon tiles (Dishwash Liquid, Toilet Cleaner) |
 | Our Promise | `home.css` | — | Trust copy |
 | Contact CTA band | `home.css` | — | Link to `contact.html` |
 | Wave divider | `home.css` | — | Between carousel and Why Choose |
@@ -188,7 +188,9 @@ Nav links: Home · About Us · Products · Quality & Safety · Contact · FAQ ·
 |---------|---------|
 | Page hero | Range overview |
 | Floor Cleaner launch (`#floor-cleaner`) | Full product detail: benefits, 3-step how-to-use, fragrance/safety notes |
-| Coming soon grid (`#coming-soon`) | Dishwash Liquid, Hand Wash, White Phenyl, Toilet Cleaner — no buy buttons |
+| Hand Wash (`#hand-wash`) | Available now — benefits, how-to-use, enquiry CTA |
+| White Phenyl (`#white-phenyl`) | Available now — benefits, how-to-use, enquiry CTA |
+| Coming soon grid (`#coming-soon`) | Dishwash Liquid, Toilet Cleaner — no buy buttons |
 | Enquiry CTA | Soft CTAs for customers / retailers / distributors |
 
 Product-family accent colors on coming-soon cards (blue/lavender, green, red hints).

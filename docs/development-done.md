@@ -482,3 +482,33 @@ Completed
 ### Testing done (if any)
 - `npm run build` — 8 HTML pages + assets in `dist/`
 - `VITE_BASE_PATH=/Cleanvo/ npm run build` — CSS paths prefixed correctly
+
+---
+
+## [2026-07-20] Products — Promote Hand Wash & White Phenyl
+
+### Functionality covered
+- Hand Wash and White Phenyl moved from Coming Soon to full available product sections on `products.html`
+- Coming Soon now lists only Dishwash Liquid and Toilet Cleaner
+- Homepage carousel + upcoming section updated to match
+- Footer product links on all 8 pages ordered available-first with section anchors
+- About, FAQ, and Quality & Safety copy updated for the new lineup
+
+### Quick summary
+The live range is now Floor Cleaner, Hand Wash, and White Phenyl. Site-wide messaging no longer treats Hand Wash or White Phenyl as upcoming.
+
+### Files added / changed
+- `products.html` — modified (two new product sections; coming-soon reduced)
+- `index.html` — modified (carousel, upcoming grid, footer)
+- `about.html`, `faq.html`, `quality-safety.html` — modified (copy + footer)
+- `contact.html`, `privacy-policy.html`, `terms-and-conditions.html` — modified (footer links)
+- `assets/css/products.css` — modified (hand/phenyl themes, 2-col coming grid, scroll-margin)
+- `assets/css/home.css` — modified (2-col upcoming grid + note)
+- `docs/project-structure.md` — modified (products map)
+
+### Status
+Completed
+
+### Testing done (if any)
+- Verified product anchors and footer link order across pages via search
+- Manual check recommended: `products.html` sections, homepage upcoming (2 cards), footer deep links

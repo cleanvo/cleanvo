@@ -10,6 +10,7 @@
 
 .product-launch {
   padding-block: var(--space-section);
+  scroll-margin-top: calc(var(--header-height) + 1rem);
 }
 
 .product-launch__grid {
@@ -41,6 +42,48 @@
   width: min(220px, 55vw);
   height: auto;
   filter: drop-shadow(0 16px 28px rgba(10, 94, 189, 0.2));
+}
+
+.product-launch--hand .product-launch__visual {
+  background: linear-gradient(160deg, #e6f4fb 0%, #eef6ff 55%, #e8f7f2 100%);
+}
+
+.product-launch--hand .product-launch__variant {
+  color: #0a6a8a;
+}
+
+.product-launch--hand .product-benefits__item {
+  border-left-color: #0a7aa8;
+}
+
+.product-launch--hand .product-benefits__item svg,
+.product-launch--hand .product-launch__tagline {
+  color: #0a7aa8;
+}
+
+.product-launch--hand .directions__num {
+  background: #0a7aa8;
+}
+
+.product-launch--phenyl .product-launch__visual {
+  background: linear-gradient(160deg, #eef1f4 0%, #f4f6f8 55%, #e8eef5 100%);
+}
+
+.product-launch--phenyl .product-launch__variant {
+  color: #5c6b7a;
+}
+
+.product-launch--phenyl .product-benefits__item {
+  border-left-color: #5c6b7a;
+}
+
+.product-launch--phenyl .product-benefits__item svg,
+.product-launch--phenyl .product-launch__tagline {
+  color: #5c6b7a;
+}
+
+.product-launch--phenyl .directions__num {
+  background: #5c6b7a;
 }
 
 .product-launch__badge {
@@ -185,6 +228,7 @@
 .coming-range {
   padding-block: var(--space-section);
   background: var(--color-bg-soft);
+  scroll-margin-top: calc(var(--header-height) + 1rem);
 }
 
 .coming-range__grid {
@@ -203,6 +247,12 @@
   .coming-range__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .coming-range__grid--two {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 44rem;
+    margin-inline: auto;
+  }
 }
 
 .range-card {
@@ -216,6 +266,7 @@
   gap: var(--space-3);
   max-width: 100%;
   box-sizing: border-box;
+  scroll-margin-top: calc(var(--header-height) + 1rem);
   transition:
     border-color var(--duration-base) var(--ease-out),
     box-shadow var(--duration-base) var(--ease-out),

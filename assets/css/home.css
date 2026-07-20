@@ -731,6 +731,32 @@ body.modal-open {
   .upcoming__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .upcoming__grid--two {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 44rem;
+    margin-inline: auto;
+  }
+}
+
+.upcoming__note {
+  margin-top: var(--space-6);
+  text-align: center;
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+  max-width: 40rem;
+  margin-inline: auto;
+}
+
+.upcoming__note a {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.upcoming__note a:hover {
+  color: var(--color-secondary-dark);
 }
 
 .product-tile {
